@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FewArticles/>
+  <few-articles-reactive-version></few-articles-reactive-version>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import FewArticles from './components/FewArticles.vue';
+import FewArticlesReactiveVersion from './components/FewArticlesReactiveVersion.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    FewArticles,
+    FewArticlesReactiveVersion,
   },
 };
 </script>
